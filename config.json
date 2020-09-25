@@ -1,0 +1,29 @@
+{
+    "name": "REDCapCon 2020 Demo Module",
+    "description": "A demo module for REDCapCon 2020.",
+    "namespace": "MCRI\\REDCapCon2020",
+    "authors": [
+        {
+            "name": "Luke Stevens",
+            "email": "luke.stevens@mcri.edu.au",
+            "institution": "Murdoch Children's Research Institute"
+        }
+    ],
+    "permissions": [
+        "redcap_data_entry_form_top"
+    ],
+    "project-settings": [
+        {
+            "key": "lookup-field",
+            "name": "Lookup values from this field",
+            "required": true,
+            "type": "field-list"
+        },
+        {
+            "key": "set-field",
+            "name": "Set the max value to this field",
+            "required": true,
+            "type": "field-list"
+        }
+    ]
+}
